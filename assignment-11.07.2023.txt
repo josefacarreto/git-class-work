@@ -7,26 +7,89 @@ Initialize the repository.
 Inside the "git_practice" directory, create a new file named "index.html" using the touch command.
 
 Check the status of your Git repository using git status. What does it show?
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
 
 Add the "index.html" file to the staging area using git add.
 
 Check the status again using git status. What is different now?
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../assignment-11.07.2023.txt
 
 Create a commit with a message "Initial commit" using git commit.
-
+[main 80383de] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_practice/index.html
 Check the commit history using git log. What does it show?
+Author: Josefa Carreto <73377746+josefacarreto@users.noreply.github.com>
+Date:   Tue Nov 7 20:26:42 2023 +0000
 
+    Initial commit
+
+commit fed3b8775ebed390c1c01090ac4bb13080e27128 (origin/main, origin/HEAD)
+Author: XaviTest <145496061+XaviTest@users.noreply.github.com>
+Date:   Tue Nov 7 15:20:44 2023 -0500
+
+    Update assignment-11.07.2023.txt
+
+commit 9962bd62aa301461d76817e3dbaf1a7986425358
+Author: XaviTest <145496061+XaviTest@users.noreply.github.com>
+:
 Add a new line of text to "index.html" using the echo command and append it to the file using >>.
 
 View the contents of "index.html" using cat.
 
 Check the status using git status. What does it show now?
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../assignment-11.07.2023.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        indec.html
+        index.files
+
+no changes added to commit (use "git add" and/or "git commit -a")
 Add the modified "index.html" to the staging area using git add.
 
 Create a new commit with a message "Add content to index.html."
 
 Check the commit history using git log. Has a new commit been added?
+commit 80383de7046398adebc2e4479ec82f9a78fdcdcf (HEAD -> main)
+Author: Josefa Carreto <73377746+josefacarreto@users.noreply.github.com>
+Date:   Tue Nov 7 20:26:42 2023 +0000
+
+    Initial commit
+
+commit fed3b8775ebed390c1c01090ac4bb13080e27128 (origin/main, origin/HEAD)
+Author: XaviTest <145496061+XaviTest@users.noreply.github.com>
+Date:   Tue Nov 7 15:20:44 2023 -0500
+
+    Update assignment-11.07.2023.txt
+
+commit 9962bd62aa301461d76817e3dbaf1a7986425358
+Author: XaviTest <145496061+XaviTest@users.noreply.github.com>
+:
 
 Make another change to "index.html" (e.g., add more text) and create a new commit.
 
