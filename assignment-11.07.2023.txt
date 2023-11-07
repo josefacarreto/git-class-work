@@ -1,0 +1,31 @@
+For each one paste the output or the commands right below it.
+
+Create a new directory called "git_practice" and navigate to it.
+
+Inside the "git_practice" directory, create a new file named "index.html" using the touch command.
+
+Check the status of your Git repository using git status. What does it show?
+
+Add the "index.html" file to the staging area using git add.
+
+Check the status again using git status. What is different now?
+
+Create a commit with a message "Initial commit" using git commit.
+
+Check the commit history using git log. What does it show?
+
+Add a new line of text to "index.html" using the echo command and append it to the file using >>.
+
+View the contents of "index.html" using cat.
+
+Check the status using git status. What does it show now?
+
+Add the modified "index.html" to the staging area using git add.
+
+Create a new commit with a message "Add content to index.html."
+
+Check the commit history using git log. Has a new commit been added?
+
+Make another change to "index.html" (e.g., add more text) and create a new commit.
+
+Check the commit history using git log to verify the additional commit.
