@@ -2,6 +2,8 @@ For each one paste the output or the commands right below it.
 
 Create a new directory called "git_practice" and navigate to it.
 
+Initialize the repository.
+
 Inside the "git_practice" directory, create a new file named "index.html" using the touch command.
 
 Check the status of your Git repository using git status. What does it show?
